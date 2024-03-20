@@ -16,7 +16,6 @@ class TableViewController: UITableViewController {
         setupNC()
         addAction()
         
-        
     }
     
     //MARK: -
@@ -95,8 +94,6 @@ class TableViewController: UITableViewController {
         
         return true
     }
-    
-    
     
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
