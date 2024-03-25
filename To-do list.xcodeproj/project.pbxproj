@@ -14,6 +14,7 @@
 		5D7DF39E2BAAC99F004B562B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7DF39C2BAAC99F004B562B /* LaunchScreen.storyboard */; };
 		5D7DF3A72BAAC9D8004B562B /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DF3A62BAAC9D8004B562B /* ToDoModel.swift */; };
 		5D7DF3AA2BAACA0E004B562B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DF3A92BAACA0E004B562B /* TableViewController.swift */; };
+		5D7DF3C02BAB1FE7004B562B /* Setting circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DF3BF2BAB1FE7004B562B /* Setting circle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5D7DF39F2BAAC99F004B562B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D7DF3A62BAAC9D8004B562B /* ToDoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
 		5D7DF3A92BAACA0E004B562B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5D7DF3BF2BAB1FE7004B562B /* Setting circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Setting circle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		5D7DF38D2BAAC99D004B562B /* To-do list */ = {
 			isa = PBXGroup;
 			children = (
+				5D7DF3BD2BAB1FC1004B562B /* All elements */,
 				5D7DF3A82BAAC9F6004B562B /* View */,
 				5D7DF3BC2BAAECA9004B562B /* API */,
 				5D7DF3BB2BAAEC64004B562B /* Resources */,
@@ -108,6 +111,22 @@
 				5D7DF3A52BAAC9C4004B562B /* model */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		5D7DF3BD2BAB1FC1004B562B /* All elements */ = {
+			isa = PBXGroup;
+			children = (
+				5D7DF3BE2BAB1FCF004B562B /* Circle */,
+			);
+			path = "All elements";
+			sourceTree = "<group>";
+		};
+		5D7DF3BE2BAB1FCF004B562B /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				5D7DF3BF2BAB1FE7004B562B /* Setting circle.swift */,
+			);
+			name = Circle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +202,7 @@
 				5D7DF38F2BAAC99D004B562B /* AppDelegate.swift in Sources */,
 				5D7DF3A72BAAC9D8004B562B /* ToDoModel.swift in Sources */,
 				5D7DF3912BAAC99D004B562B /* SceneDelegate.swift in Sources */,
+				5D7DF3C02BAB1FE7004B562B /* Setting circle.swift in Sources */,
 				5D7DF3AA2BAACA0E004B562B /* TableViewController.swift in Sources */,
 				5D7DF3992BAAC99D004B562B /* To_do_list.xcdatamodeld in Sources */,
 			);

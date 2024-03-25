@@ -9,13 +9,20 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
+    let circle = Circle()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .cyan
         setupNC()
         addAction()
+       colorBackground()
+        circle.settingCircle()
         
+    }
+    
+    func colorBackground() {
+        view.backgroundColor = UIColor(named: "basic")
     }
     
     //MARK: -
